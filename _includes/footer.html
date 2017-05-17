@@ -1,0 +1,17 @@
+<div class="page-contentinfo contentinfo">
+  <footer id="contentinfo" role="contentinfo" class="contentinfo__region container">
+    <div class="row">
+      <div id="block-address-address" class="block block--address block--address-address block--first first block--last last odd col-xs-12 col-sm-12">
+        <div class="block__content">
+
+          <div class="address" itemscope itemtype="http://schema.org/Organization" itemref="mOrga">
+            <p><strong itemprop="name">{{ site.OWNER_NAME }}</strong></p>
+            <p><span>{{ site.OWNER_ADDRESS }}</span></p>
+            <p>Email&nbsp;: <span><a itemprop="email" href="mailto:{{ site.OWNER_EMAIL }}">{{ site.OWNER_EMAIL }}</a></span></p>
+            <p>Téléphone&nbsp;: {{ site.OWNER_PHONE }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>

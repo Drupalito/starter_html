@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="ie9 no-js" dir="ltr" lang="fr"><![endif]-->
+<html class="ie9 no-js" dir="ltr" lang="fr">
+{% include head.html %}
+<body>
+  <p id="skiplinks" class="skiplinks">
+    <a href="#navigation">Navigation</a>
+    <a href="#main">Contenu principal</a>
+  </p>
+  <div id="page" class="page">
+
+    {% include header.html %}
+
+    <div class="page-container">
+      <div id="container" class="container__region container">
+        <div class="row">
+          <div id="content" class="col-xs-12">
+            <main id="main" class="main" role="main">
+
+             {{ content }}
+
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </div>
+</body>
+</html>
