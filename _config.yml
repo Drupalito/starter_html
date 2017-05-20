@@ -1,0 +1,32 @@
+safe: false
+
+title: "Documentation"
+description: "Documentation Projet"
+
+# build settings
+markdown: kramdown
+
+highlighter: rouge
+
+lsi: false
+
+permalink: "/:title"
+
+baseurl: ""
+
+# replace by your site's url
+url: ""
+
+static_files: "images"
+
+# google analytics tracking code, please change the value
+g_analytics: ""
+
+# language settings
+isolang: fr
+isodir: ltr
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md

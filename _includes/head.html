@@ -1,6 +1,13 @@
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>{{ PAGE_TITLE }}</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta itemprop="name" content="{{ site.title }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="author" content="{{ site.author }}" />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="shortcut icon" href="{{ "assets/images/favicon.ico" | prepend: site.burl }}" />
+  <link href="{{ "assets/css/base.reset.css" | prepend: site.burl }}" />
+  <link href="{{ "assets/css/theme.banner.css" | prepend: site.burl }}" />
 </head>
-<body>
